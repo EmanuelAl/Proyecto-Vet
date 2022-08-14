@@ -1,7 +1,7 @@
 # Proyecto-Vet
-### Proyecto Vet
 
-#Integrantes 
+## Integrantes 
+
 Laura Calzadilla
 Sofia Senin
 Javier Balderrama
