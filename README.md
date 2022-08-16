@@ -1,7 +1,9 @@
 # Proyecto-Vet 🐶🐺🐱🐹🐰🐕‍🦺🐈🐾🐾🐾 ![Status badge](https://img.shields.io/badge/status-in%20progress-yellow)
 
-![capturaProyectoVet](https://user-images.githubusercontent.com/52534676/184974799-743dd4a4-7911-43dd-ad06-3ab1642d3ee0.png) <br>
-El proyecto es un recurso para la comunidad interesada en el bienestar de sus mascotas, brindando informacion relevante al gran mundo que envuelve a las veterinarias, como asi también,se comparte información sobre eventos relacionados y mucho mas!!
+![capturaProyectoVet](https://user-images.githubusercontent.com/52534676/184974799-743dd4a4-7911-43dd-ad06-3ab1642d3ee0.png) 
+
+<br>
+<p>El proyecto se encuentra aún en desarrollo, será un recurso para la comunidad interesada en el bienestar de sus mascotas, brindando informacion relevante al gran mundo que envuelve a las veterinarias, como asi también,se comparte información sobre eventos relacionados y mucho mas!! </p>
 
 ***
 
