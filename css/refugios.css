@@ -1,0 +1,62 @@
+
+h1 {color: #FFAB00;
+text-align: center;
+margin-top: 40px;}
+
+.container{
+    display: block;
+    width: 90vw;
+    height: calc(75*90vw);
+    max-width: 800px;
+    max-height: 600px;
+    border: 1px solid gray;
+    margin: 1em auto;
+    box-shadow: 2px 2px 2px silver;
+    border-radius: 4px;
+    }
+    .mapa{
+        width: 100%;
+    
+    }
+    
+    .perrito {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #perritorefugio {
+        width: 40vw;
+        margin-left: 0px;
+    }
+    #dialogorefugio {
+        /* justify-content: flex-start;*/
+        align-content: flex-start;
+        width: 40vw;
+       
+       
+    }
+     
+
+     @media screen and (min-width: 768px ) {
+    
+        #perritorefugio {
+            margin-left: 0px;} }
+
+
+     
+     @media screen and (min-width: 1021px) {
+    
+    #perritorefugio {
+            width: 30vw;
+            height: 40vw;}
+
+    #dialogorefugio {
+            /* justify-content: flex-start;*/
+            align-content: flex-start;
+            width: 30vw;}
+           
+    .perrito {
+        width: 100vw;
+        justify-content: flex-start;
+        }
+     }

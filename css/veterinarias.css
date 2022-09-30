@@ -1,0 +1,55 @@
+
+
+/*-----------codigo flor ------------*/
+h1 {color: #FFAB00;
+        text-align: center;
+        margin-top: 40px;}
+
+
+.container{
+display: block;
+width: 90vw;
+height: calc(75*90vw);
+max-width: 800px;
+max-height: 600px;
+border: 1px solid gray;
+margin: 1em auto;
+box-shadow: 2px 2px 2px silver;
+border-radius: 4px;
+}
+.mapa{
+    width: 100%;
+
+}
+
+.perrito {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -220px;
+}
+
+h2{
+    position: relative;
+    margin-left: 10px;}
+
+#dialogovete {
+   /* justify-content: flex-start;*/
+    width: 380px;
+    margin-top: 120px;
+    margin-left: 220px;
+}
+
+#perritovete {
+    margin-right: 220px;
+    margin-left: -180px;
+
+}
+
+@media screen and (min-width: 1021px) {
+
+#dialogovete {
+    width: 380px;
+}
+
+}
