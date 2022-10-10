@@ -1,8 +1,9 @@
 
-h1 {font-size: 1.5rem;
+h1 {font-size: 2rem;
     color: #FFAB00;
-text-align: center;
-padding-top: 40px;}
+    font-family: 'Dangrek', cursive;
+    text-align: center;
+    padding-top: 40px;}
 
 main {background-color: #FFFAFC;}
 
