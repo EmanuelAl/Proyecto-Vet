@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/iconos.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/veterinarias.css">
+</head>
+<body>
+
+    <header>
+    
+        <nav>
+            <!-----logo------>
+            <div>
+                <img class="logo" src="imagenes\LogoHeader.png" alt="">
+            </div>
+
+            <!-----barra------>
+            <div class="buscar">
+                <input  class="inputbuscar"  type="text" placeholder="Buscar" required>
+                <div  class="btn" >
+                <span class="icon-search"></span> 
+                </div>
+            </div>
+            <!------menu----->
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <span class="icon-menu"></span>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="veterinarias.html">VETERINARIA</a></li>
+                <li><a href="refugios.html">REFUGIOS</a></li>
+                <li><a href="paseadores.html">PASEADORES</a></li>
+                
+               
+            </ul>
+        </nav>
+        </header>
+         <main>
+
+             
+            <div class="container">
+            <h1>VETERINARIAS</h1>    
+              
+            <iframe class="mapa"src="https://www.google.com/maps/embed/v1/search?key=AIzaSyC8xnAMJed4ZRU5cxP1U8w70cy7NlJKCdE&q=veterinarias+24+horasBuenos+Aires" 
+            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+            </div>
+             
+                <div class="perrito">
+                <img  id="dialogovete" src="imagenes\veterinaria.png" alt="globo texto">
+                <img id="perritovete" src="imagenes\fotovete.png" alt="imagenperrito">
+             </div>
+    
+    </main>
+</body>
+</html>
