@@ -20,13 +20,21 @@ a { color: #565964;}
     max-height: 600px;
     border: 1px solid gray;
     margin: 1em auto;
-    box-shadow: 2px 2px 2px silver;
+    box-shadow: 0px 0px 2px silver;
     border-radius: 4px;}
 
  .divrefugios { 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;}
+    justify-content: space-around;
+  }
+
+    .divrefugios div h4 {
+      text-align: center;
+      font-size: 24px;
+    }
+
+
 
 .divperfil {width: 200px;
 height:200px;
@@ -34,7 +42,7 @@ margin: 60px;
 margin-bottom: 15px;
 border-radius: 50%;
 justify-content: center;
-box-shadow: 5px -5px 23px 0px #738CE8;}
+box-shadow: 0px 0px 20px 0px #c7c7c7;}
 
 .div1, .div2 , .div3 {
     display: flex;
@@ -63,7 +71,7 @@ box-shadow: 5px -5px 23px 0px #738CE8;}
   background-color: #fff;
   border-radius: 24px;
   border-style: none;
-  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-shadow: rgba(0, 0, 0, .2) 0 0px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
   box-sizing: border-box;
   color: #3c4043;
   cursor: pointer;

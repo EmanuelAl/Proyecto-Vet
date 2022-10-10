@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/iconos.css">
     <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/refugios.css">
 </head>
 <body>
     <header>
@@ -18,17 +19,18 @@
             </div>
 
             <!-----barra------>
-            <div class="buscar">
-                <input  class="inputbuscar"  type="text" placeholder="Buscar" required>
-                <div  class="btn" >
-                <span class="icon-search"></span> 
+            <div id="barrabusqueda">
+                    <input  id="inputbuscar"  type="text" placeholder="Buscar" required>
+                    <div  class="btn">
+                        <span class="icon-search"></span> 
+                    </div>
                 </div>
+                <!------menu----->
+                <input type="checkbox" id="check">
+                <label for="check" class="bar-btn">
+                    <span class="icon-menu"></span>
+                </label>
             </div>
-            <!------menu----->
-            <input type="checkbox" id="check">
-            <label for="check" class="bar-btn">
-                <span class="icon-menu"></span>
-            </label>
 
             <ul class="nav-menu">
                 <li><a href="index.html">INICIO</a></li>
@@ -45,5 +47,102 @@
 
         
     </header>
+
+    <div>
+        <div class="divrefugios">
+            <div class="div1" >
+                <img class="divperfil" src="imagenes/Paseador-1.jpg" alt="perfil">
+                <h4>Alfredo Cáceres</h4>
+            </div>
+
+            <div class="div2" >
+                <img class="divperfil" src="imagenes/Paseador-2.jpg" alt="">
+                <h4>Alfredo Cáceres</h4>
+            </div>
+
+            <div  class="div3" >
+            <img  class="divperfil" src="imagenes/Paseador-4.jpg" alt="">
+            <h4>Alfredo Cáceres</h4>
+            </div>
+        </div>
+
+        <div class="divrefugios">
+            <div class="div1" >
+                <img class="divperfil" src="imagenes/Paseador-5.jpg" alt="perfil">
+                <h4>Alfredo Cáceres</h4>
+            </div>
+
+            <div class="div2" >
+                <img class="divperfil" src="imagenes/Paseador-6.jpg" alt="">
+                <h4>Alfredo Cáceres</h4>
+            </div>
+
+            <div  class="div3" >
+                <img  class="divperfil" src="imagenes/Paseador-7.jpg" alt="">
+                <h4>Alfredo Cáceres</h4>
+            </div>
+        </div>
+
+        <div class="divrefugios">
+            <div class="div1" >
+                <img class="divperfil" src="imagenes/Paseador-8.jpg" alt="perfil">
+                <h4>Alfredo Cáceres</h4>
+            </div>
+
+            <div class="div2" >
+                <img class="divperfil" src="imagenes/Paseador-9.jpg" alt="">
+                <h4>Alfredo Cáceres</h4>
+            </div>
+
+            <div  class="div3" >
+                <img  class="divperfil" src="imagenes/Paseador-10.jpg" alt="">
+                <h4>Alfredo Cáceres</h4>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="piepagina">
+        <div class="foot">
+   
+             <!-- <div class="box">  -->
+                <img src="img/Maskoteando.png" alt=Logo1 id="Logo1">
+            <!-- </div> -->
+              <div class="box">
+                 
+                   <form id="form-mensaje">
+                       <h2>Dejanos tu mensaje</h2>
+                       <input type="text" placeholder="Nombre" required>
+   
+                       <input type="email" placeholder="Tú e-mail xxx@xxx.xx.xx" required>
+                   
+                       <textarea rows="2" cols="25" placeholder="Escribe tú mensaje..." required></textarea>
+                     
+                       <button class="btn" type="submit">Enviar</button>
+                     
+                   </form>
+                 
+               </div>
+               <div class="caja-redes-enlaces">
+   
+                   <div class="box">
+                       <h2> Redes</h2>
+                       <a href="#"><img src="img/LOGO INSTA.png" alt="LOGO-INSTA"></a>
+                       <a href="#"><img src="img/LOGO FACEBOOK.png" alt="LOGO-FACEBOOK"></a>
+                   </div>
+       
+                   <div class="box">
+                           <h2> Enlaces </h2>
+                           <a href="#">Inicio</a>
+                           <a href="#">Veterinarias</a>
+                           <a href="#">Refugios y adopción</a>
+                           <a href="#">Paseadores</a>
+                   </div>
+               </div>
+        </div>
+    </footer>  
+    
+    
 </body>
 </html>

@@ -35,9 +35,11 @@ nav {
 
 main {background-color: #FFFAFC;}
 
-.logo {    width: 400px;
+.logo {    
+    width: 400px;
     margin-top: 30px;
-    margin-left: -140px;
+    padding: 20px;
+    margin-left: -110px;
 }
 
 .bar-btn { font-size: 25px;
@@ -100,10 +102,27 @@ main {background-color: #FFFAFC;}
     transition: all 0.6s ease;
 }
 
+#inputbuscar {
+    position: absolute;
+    top: 37px;
+    left: 180px;
+    width: 450px;
+    height: 45px;
+    border-radius: 30px;;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+    padding: 20px;
+    font-size: 24px;
+}
+
+
 .btn{
     position: absolute;
-    top: 0;
-    right: 5px;
+    top: 36px;
+    left: 585px;
     background: #FFAB00;
     width: 48px;
     height: 48px;
@@ -184,3 +203,143 @@ main {background-color: #FFFAFC;}
 .buscar input {
     width: 450px;}
 } 
+
+.piepagina {
+    width: 100%;
+    background:#FFA7C0;
+}
+
+.piepagina .foot{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: auto;
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#form-mensaje{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#form-mensaje input,textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+    border:none;
+}
+textarea {
+    height: 114px;
+}
+.btn {
+    display: block;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #FFAB00;
+    color: #070706;
+}
+
+.piepagina .foot .box {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start ;
+    margin-bottom: 10px;
+     
+}
+.piepagina .foot .box h2{
+    color:#FFAB00;
+    margin-bottom: 7px;
+    font-size: 20px;
+    text-align: center;
+}
+.piepagina .foot .box a{
+    color:#FFAB00;
+    text-decoration: none;
+}
+#logo1{
+ width: 20%;
+ height: auto;
+
+}
+/* logos redes sociales */
+.box a img{
+    width: 100px;
+    height: 100px; 
+}
+.caja-redes-enlaces{
+      width: 45%;
+      height: auto;  
+      display:flex;
+      justify-content: space-evenly;
+}
+
+
+
+@media (max-width: 420px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    header img {
+        width: 60%;
+    }
+
+    .foot {
+        width: 100%;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .foot img{
+        width: 20%;
+    }
+    .piepagina .foot .box {
+        width: 75%;
+    }
+    .caja-redes-enlaces{
+        width: 100%;
+        height: auto;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #logo {
+        justify-self: flex-end;
+    }
+    img {
+        width: 50%;
+    }
+    .div-img img {
+        width: 300px;}
+}
+@media (min-width: 421px) and ( max-width: 1020px) {
+    .piepagina .foot .box {
+        width: 31%;
+    }
+    .caja-redes-enlaces{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .foot img{
+        width: 20%;
+    }
+    header img {
+        width: 30%;
+    }
+}
