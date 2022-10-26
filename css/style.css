@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Poppins:wght@300;700;800&display=swap');
+
 :root {
     --color-yellow: #ffe0e9;
     --color-pink: #FFF9ED;
@@ -12,7 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Dangrek', cursive;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;

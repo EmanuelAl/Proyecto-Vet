@@ -45,7 +45,7 @@ box-shadow: 5px -5px 23px 0px #738CE8;}
 
 .mapa {width: 100%; }
     
-.perrito {
+.perritorefugio {
     display: flex;
     align-items: flex-start;}
 
@@ -136,7 +136,7 @@ box-shadow: 5px -5px 23px 0px #738CE8;}
     align-content: flex-start;
     width: 30vw;}
 
-  .perrito {
+  .perritorefugio {
    width: 100vw;
     justify-content: flex-start;}
      }
