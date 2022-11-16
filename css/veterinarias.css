@@ -2,7 +2,7 @@
 h1 {color: #FF9800;
     text-align: center;
     margin-bottom: 50px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-top: 40px;}
 
 main {background-color: #FFFAFC;}
@@ -18,7 +18,7 @@ main {background-color: #FFFAFC;}
     box-shadow: 5px -5px 23px 0px #738CE8;;
     border-radius: 4px;}
 
-.perrito {
+.perritoveterinaria {
     display: flex;
     justify-content: center;
     flex-direction: row;

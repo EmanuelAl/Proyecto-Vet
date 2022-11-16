@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Maskoteando</title>
     <link rel="stylesheet" href="css/iconos.css">
     <link rel="stylesheet" href="css/style.css">
+
+  
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"> -->
+  <link rel="stylesheet" href="css/carousel.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
 </head>
 <body>
 
@@ -33,9 +38,9 @@
 
             <ul class="nav-menu">
                 <li><a  href="index.html">INICIO</a></li>
-                <li><a  href="veterinarias.html">VETERINARIA</a></li>
-                <li><a  href="refugios.html">REFUGIOS</a></li>
-                <li><a  href="paseadores.html">PASEADORES</a></li>
+                <li><a  href="pages/veterinarias.html">VETERINARIA</a></li>
+                <li><a  href="pages/refugios.html">REFUGIOS</a></li>
+                <li><a  href="pages/paseadores.html">PASEADORES</a></li>
                 
                
             </ul>
@@ -46,7 +51,7 @@
 
         
     </header>
-    <main>
+    <main class="contenedor">
         <section id="home-caja1">
             <div id="eslogan">
                 <p>La fidelidad y 
@@ -57,19 +62,19 @@
             </div>
             <div id="contenedor-patitas">
                 <div class="patitas-elemento">
-                    <a href="">
+                    <a href="pages/veterinarias.html">
                         <img src="imagenes/pata.PNG" alt="imagen de patita">
                         <span>VETERINARIAS</span>
                     </a>
                 </div>
                 <div class="patitas-elemento">
-                    <a href="">
+                    <a href="pages/paseadores.html">
                         <img src="imagenes/pata.PNG" alt="imagen de patita">
                         <span>PASEADORES</span>
                     </a>
                 </div>
                 <div class="patitas-elemento">
-                    <a href="">
+                    <a href="pages/refugios.html">
                         <img src="imagenes/pata.PNG" alt="imagen de patita">
                         <span>REFUGIOS</span>
                     </a>
@@ -81,18 +86,48 @@
             <div id="home-sabias-que">
                 <p>¿SABIAS QUE</p>
                 <p>en el Instituto de ZOONOSIS LUIS PASTEUR</p>
-                <p>TENÉS CASTRACIONES</p>
+                <p>TENES CASTRACIONES</p>
                 <p>GRATUITAS?</p>
             </div>
         </section>
         <section id="home-caja3">
                 <h1>Curiosidades</h1>
-                <div id="curiosidades-items">
+                <!-- <div id="curiosidades-items">
                     <div class="burbuja"></div>
                     <div class="burbuja"></div>
                     <div class="burbuja"></div>
+                </div> -->
+                
+                <!-- <img class="perrito" src="imagenes/perrito.png" alt="un perrito"> -->
+                <div class="carousel">
+                    <div class="carousel__contenedor">
+                        <button aria-label="Anterior" class="carousel__anterior">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+        
+                        <div class="carousel__lista">
+                            <div class="carousel__elemento">
+                                <a href="pages/curiosidad.html" target=""><img src="https://gestion.portalbiesa.com/redaccio/arxius/imatges/202207/770_1656928270blog_post_gatos_ronronean_1.jpg" alt="¿POR QUE LOS GATOS RONRONEAN?"></a>
+                                <p>¿POR QUE LOS GATOS RONRONEAN?</p>
+                            </div>
+                            <div class="carousel__elemento">
+                                <a href="pages/curiosidad2.html" target=""><img src="https://gestion.portalbiesa.com/redaccio/arxius/imatges/201904/770_1554890253blog_post_ejercicio_1.jpg" alt="¿CUÁNTO EJERCICIO NECESITA UN PERRO AL DÍA?"></a>
+                                <p>¿CUANTO EJERCICIO NECESITA UN PERRO AL DIA?</p>
+                            </div>
+                            <div class="carousel__elemento">
+                                <a href="pages/curiosidad3.html" target=""><img src="https://gestion.portalbiesa.com/redaccio/arxius/imatges/201904/770_1555497533blog_post_suduracion_1.jpg" alt="LA SUDORACION DE LOS PERROS: ¿LOS PERROS SUDAN?"></a>
+                                <p>LA SUDORACION DE LOS PERROS: ¿LOS PERROS SUDAN?</p>
+                            </div>
+                            
+                        </div>
+        
+                        <button aria-label="Siguiente" class="carousel__siguiente">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+        
+                    <div role="tablist" class="carousel__indicadores"></div>
                 </div>
-                <img class="perrito" src="imagenes/perrito.png" alt="un perrito">
         </section>
     </main>
     <footer class="piepagina ">
@@ -126,14 +161,17 @@
         
                     <div class="box">
                             <h2> Enlaces </h2>
-                            <a href="#">Inicio</a>
-                            <a href="#">Veterinarias</a>
-                            <a href="#">Refugios y adopción</a>
-                            <a href="#">Paseadores</a>
+                            <a href="index.html">Inicio</a>
+                            <a href="pages/veterinarias.html">Veterinarias</a>
+                            <a href="pages/refugios.html">Refugios y adopción</a>
+                            <a href="pages/paseadores.html">Paseadores</a>
                     </div>
                 </div>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    
 </body>
 </html>

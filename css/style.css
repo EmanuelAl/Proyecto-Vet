@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 :root {
     --color-yellow: #ffe0e9;
     --color-pink: #FFF9ED;
@@ -13,6 +15,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Dangrek', cursive;
+    /* font-family: 'Poppins', sans-serif; */
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
@@ -25,7 +28,9 @@
 header {
     width:100%;
     height:125px;
-    background-color: #738CE8  ; }
+    background-color: #738CE8  ; 
+    
+}
 
 nav {
     height:100px;
@@ -69,6 +74,7 @@ main {background-color: #FFFAFC;}
     font-size: 16px;
     text-transform:uppercase;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-menu li a.active, .nav-menu li a:hover{ 
@@ -188,11 +194,18 @@ main {background-color: #FFFAFC;}
 } 
 
 /***************MAIN  HOME*****************/
+
 #home-caja1 , #home-caja2, #home-caja3{
     width: 100%;
     height: auto;
     background-color: #FFF9ED;
+
 }
+/* main {
+
+    font-family: 'Dangrek', cursive;
+
+} */
 #eslogan{
     width: 100%;
     height: auto;
@@ -395,6 +408,10 @@ img{ /** logo */
     margin-right: 10px;
 }
 
+
+.box a,.box h2  {
+    font-family: 'Poppins', sans-serif;
+}
 /* logos redes sociales */
 .box a img{
     width: 34px;
@@ -530,16 +547,17 @@ img{ /** logo */
         display: none;
   
     }
-    #home-caja3 {
+    /* #home-caja3 {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
-    }
+    } */
 
     #home-caja3 h1 {
         font-size: 9rem;
-        margin-left: 18%;  
+        margin-left: 18%;
+        margin-left: 0%;   
     }
     .perrito {
         margin-left: 0;
@@ -569,4 +587,13 @@ img{ /** logo */
     .perrito {
         margin-left: 71%;
     }
+}
+
+/* .bxslider {
+    width: 100%;
+    height: 300px;
+} */
+.bxslider div img {
+    width: 100%;
+    height: 500px;
 }
